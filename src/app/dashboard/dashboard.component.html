@@ -1,0 +1,17 @@
+<div class="fluid-container">
+  <div class="jumbotron">
+  <div class="row">
+    <div class="col"> <button class="btn btn-primary" (click)="phpCourse()" > PHP Course </button> </div>
+    <div class="col"> <button class="btn btn-primary" (click)="angularCourse()"> Angular Course </button> </div>
+  </div>
+  </div>
+  <div *ngIf="test" id="append">
+      {{ response }}
+  </div>
+  <div *ngIf="test2" id="append2">
+      {{ response2 }}
+  </div>
+</div>
+
+<!-- <button (click)="fetchIt()">Grab It</button>
+ {{ response }} -->
